@@ -433,7 +433,7 @@ h3.tittle {
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
- <div class="main" style="padding:2%;margin-top:5%;">        	
+ <div class="main" style="padding:2%;margin-top:2%;">        	
  <div class="col-lg-12">
          <div class="container">          	 
                <div class="col-lg-4"></div>
@@ -441,24 +441,24 @@ h3.tittle {
 				 <div class="row grids text-center">
 					<div class="view view-tenth">
 					    <!--  <a href="single.html">-->
-						   <div class="inner_content clearfix">
-					<div class="product_image">
-						<img src="imagen/logo-rsu-unheval.png" class="img-responsive" alt="" style="margin:5% auto;"/>
-                     </div>
-					<div class="label-product">
-						<span class="new">Iniciar Sesión </span> 
-					</div>
-					<div class="mask" style="width:100% !important; margin: 0 0 10px 0;">
-						<h2><b>Bienvenido</b></h2>
-                        <div class="main">
-							<form>
-							<input type="text" class="text" value="Usuario" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Usuario';}" >
-							<input type="password" value="Contraseña" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contraseña';}">
-							<div class="submit"><input type="submit" onclick="myFunction()" value="Iniciar Sesión" ></div>
-							<div class="clearfix"></div>
-							</form>
+					<div class="inner_content clearfix">
+						<div class="product_image" >
+							<img src="imagen/logo-rsu-unheval.png" class="img-responsive" alt="" style="margin:5% auto;"/>
+	               </div>
+						<div class="label-product" style="margin-top: 5em; margin-bottom: 40%">
+							<span class="new">Iniciar Sesión </span> 
 						</div>
-					</div>
+						<div class="mask" style="width:100% !important; margin-top: -2em">
+							<h2><b>Bienvenido</b></h2>
+	                  <div class="main">
+								<form>
+								<input type="text" class="text" value="Usuario" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Usuario';}" >
+								<input type="password" value="Contraseña" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contraseña';}">
+								<div class="submit"><input type="submit" onclick="myFunction()" value="Iniciar Sesión" ></div>
+								<div class="clearfix"></div>
+								</form>
+							</div>
+						</div>
 							
 			        </div>
 					</div>
@@ -469,9 +469,9 @@ h3.tittle {
 		<div class="col-lg-4"></div>
         </div>
         <div class="col-lg-12">
-        <div class="footer">
+        <div class="footer" style="margin-bottom: 2px;">
 			<p> © 2018 UNHEVAL | Vicerrectorado Académico - <a href="http://www.unheval.edu.pe/" title="Dirección de Responsabilidad Social Universitaria">DRSU</a></p>
-    </div>
+    	</div>
     </div>
   </div>
 </body>
