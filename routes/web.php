@@ -39,3 +39,4 @@ Route::get('login', function () {
 	Route::get('superAdmin', function () {
 	    return view('welcome');
 	});
+	//generando cualquier cambio
